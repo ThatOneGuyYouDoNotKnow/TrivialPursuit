@@ -1,12 +1,15 @@
 ﻿using System.Collections.Generic;
 using Interfaces.Entities;
+using JetBrains.Annotations;
 
 namespace Interfaces.Services
 {
     public interface ICategoryDeciderFactory
     {
-        ICategoryDecider GetHowToDecideOnACategory(
-            IField field, IPlayer currentPlayer,
-            IDictionary<IPlayer, IScore> scores);
+        [NotNull]
+        ICategoryDecider GetCategoryDecider(
+            [NotNull] IField field,
+            [NotNull] IPlayer currentPlayer,
+            [NotNull] [ItemNotNull] IDictionary<IPlayer, IScore> scores);
     }
 }

@@ -1,9 +1,11 @@
 ﻿using Interfaces.Entities;
+using JetBrains.Annotations;
 
 namespace Interfaces.Services
 {
     public interface IQuestionFinder
     {
-        IQuestion GetQuestion(ICard card, ICategory category);
+        [NotNull]
+        IQuestion GetQuestion([NotNull] ICard card, [NotNull] ICategory category);
     }
 }

@@ -1,7 +1,9 @@
-﻿namespace Interfaces.Services
+﻿using JetBrains.Annotations;
+
+namespace Interfaces.Services
 {
     public interface IDiceRollingService
     {
-        int RollTheDice(IDice dice);
+        int RollTheDice([NotNull] IDice dice);
     }
 }

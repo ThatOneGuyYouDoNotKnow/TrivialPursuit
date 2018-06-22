@@ -1,10 +1,15 @@
 ﻿using System.Collections.Generic;
 using Interfaces.Entities;
+using JetBrains.Annotations;
 
 namespace Interfaces.Services
 {
     public interface IDestinationDecider
     {
-        IField DecideWhereToGo(IList<IField> possibleFields, IPlayer player);
+        [NotNull]
+        IField DecideWhereToGo(
+            [NotNull] [ItemNotNull] IList<IField> possibleFields,
+            [NotNull] IPlayer player,
+            [NotNull] IScore score);
     }
 }

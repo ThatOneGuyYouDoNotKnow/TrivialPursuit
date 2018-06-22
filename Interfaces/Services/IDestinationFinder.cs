@@ -1,10 +1,13 @@
 ﻿using System.Collections.Generic;
 using Interfaces.Entities;
+using JetBrains.Annotations;
 
 namespace Interfaces.Services
 {
     public interface IDestinationFinder
     {
-        IList<IField> GetPossibleDestinations(IBoard board, IField currentField, int distance);
+        [NotNull]
+        [ItemNotNull]
+        IList<IField> GetPossibleDestinations([NotNull] IBoard board, [NotNull] IField currentField, int distance);
     }
 }
