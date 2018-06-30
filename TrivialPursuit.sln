@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structure", "Structure\Structure.csproj", "{B519DA23-39CA-4B51-992F-1C78DE43BC3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializableModels", "SerializableModels\SerializableModels.csproj", "{4334E538-21A0-4D7E-A5BD-38562281DEEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B519DA23-39CA-4B51-992F-1C78DE43BC3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B519DA23-39CA-4B51-992F-1C78DE43BC3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B519DA23-39CA-4B51-992F-1C78DE43BC3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4334E538-21A0-4D7E-A5BD-38562281DEEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4334E538-21A0-4D7E-A5BD-38562281DEEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4334E538-21A0-4D7E-A5BD-38562281DEEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4334E538-21A0-4D7E-A5BD-38562281DEEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

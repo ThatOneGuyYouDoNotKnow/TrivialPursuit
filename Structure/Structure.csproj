@@ -46,6 +46,7 @@
     <Compile Include="Entities\IField.cs" />
     <Compile Include="Entities\IPlayer.cs" />
     <Compile Include="Entities\IPurting.cs" />
+    <Compile Include="Entities\IStartupContainer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Entities\ICategory.cs" />
     <Compile Include="Services\ICategoryDecider.cs" />
