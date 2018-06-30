@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Interfaces.Entities;
 using JetBrains.Annotations;
+using Structure.Entities;
 
-namespace Interfaces.Services
+namespace Structure.Services
 {
     public interface IDestinationFinder
     {

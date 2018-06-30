@@ -1,4 +1,4 @@
-﻿namespace Interfaces
+﻿namespace Structure.Entities
 {
     public interface IPlayer
     {

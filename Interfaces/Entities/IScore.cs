@@ -1,4 +1,4 @@
-﻿namespace Interfaces.Entities
+﻿namespace Structure.Entities
 {
     public interface IScore
     {

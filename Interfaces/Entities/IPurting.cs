@@ -1,4 +1,4 @@
-﻿namespace Interfaces.Entities.RunTime
+﻿namespace Structure.Entities
 {
     public interface IPurting
     {
